@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Conjugaciones de "GET"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Parte Izquierda -->
+        <div class="left-panel">
+            <h2>Estadísticas</h2>
+            <ul id="stats-list">
+                <!-- Se llenará con JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Parte Central -->
+        <div class="center-panel">
+            <h2>Traducción</h2>
+            <p id="sentence"></p>
+            <button id="show-translation">Mostrar traducción</button>
+            <div id="translation" class="hidden">
+                <p id="spanish-translation"></p>
+                <p id="literal-translation"></p>
+                <button id="correct-button">Correcto</button>
+                <button id="incorrect-button">Incorrecto</button>
+            </div>
+        </div>
+
+        <!-- Parte Derecha -->
+        <div class="right-panel">
+            <button id="toggle-translation">Mostrar/Ocultar Traducciones</button>
+            <div id="conjugations-list" class="hidden">
+                <ul>
+                    <!-- Se llenará con JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
