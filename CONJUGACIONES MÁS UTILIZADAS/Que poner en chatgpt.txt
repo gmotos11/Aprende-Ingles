@@ -1,5 +1,0 @@
-Pasarle el codigo de <Script>
-
-
-TENGO ESTO, RELLENAME 100 FRASES MAS EN "const sentences = []"
-RECUERDA QUE TIENES QUE USAR LAS CONJUGACIONES DE const conjugations = []
